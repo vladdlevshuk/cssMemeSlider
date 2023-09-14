@@ -3,11 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Meme Slider</title>
+    <title>CSS Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Forum&family=Inter&family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    Start task
+    <div class="container">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="r" id="r1" checked>
+                <input type="radio" name="r" id="r2">
+                <input type="radio" name="r" id="r3">
+                <input type="radio" name="r" id="r4">
+                <input type="radio" name="r" id="r5">
+                
+                <div class="slide s1">
+                    <img src="./img/first.png" alt="First mem">
+                    <div class="text">
+                        <span class="text__item">First</span>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/second.png" alt="Second mem">
+                    <div class="text">
+                        <span class="text__item">Second</span>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/third.png" alt="Third mem">
+                    <div class="text">
+                        <span class="text__item">Third</span>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/fourth.png" alt="Fourth mem">
+                    <div class="text">
+                        <span class="text__item">Fourth</span>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="./img/fiveth.png" alt="Fiveth mem">
+                    <div class="text">
+                        <span class="text__item">Fifth</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="pagination">
+                    <label for="r1" class="controller"></label>
+                    <label for="r2" class="controller"></label>
+                    <label for="r3" class="controller"></label>
+                    <label for="r4" class="controller"></label>
+                    <label for="r5" class="controller"></label>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
