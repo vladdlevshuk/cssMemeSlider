@@ -37,10 +37,10 @@ body{
     color: #ddd;
     font-size: 1.875rem;
     padding-left: 0.3125rem;
-    margin-top: 2.3125rem;
+    margin-top: 1.8125rem;
 }
 .bottom{
-    margin-top: 2.5rem;
+    margin-top: 2rem;
 }
 .pagination{
     display: flex;
